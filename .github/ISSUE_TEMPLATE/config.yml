@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Usage and development documentation
+    url: https://github.com/omkasana/wifi-atlas/blob/main/README.md
+    about: Start with build commands, features, architecture, and measurement limits.

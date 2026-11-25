@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible problem with WiFi Atlas.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include private SSIDs, IP/MAC addresses, floor plans, archives, or credentials. See SECURITY.md for security-sensitive reports."
+  - type: input
+    id: version
+    attributes:
+      label: App version or commit
+      placeholder: "0.2.0 / commit SHA"
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Mac and macOS version
+      placeholder: "MacBook Air M2, macOS 15.x"
+    validations:
+      required: true
+  - type: dropdown
+    id: build
+    attributes:
+      label: Build type
+      options:
+        - Package build (menu bar and floating panels)
+        - Xcode build with system widgets
+        - Downloaded release
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Redacted logs, screenshots, or context

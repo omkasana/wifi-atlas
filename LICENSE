@@ -1,0 +1,134 @@
+WiFi Atlas Source-Available License 1.0
+Copyright (c) 2026 Om Kasana. All rights reserved except as granted below.
+Licensing, royalty reports, and payment instructions: omkasana28@gmail.com
+Canonical repository: https://github.com/omkasana/wifi-atlas
+
+1. Scope and acceptance
+
+"Licensor" means Om Kasana. "Software" means the copyrightable code,
+documentation, and original assets in this repository that Licensor owns or
+has authority to license. "Derivative" means a work based on or incorporating
+protected portions of the Software. Independent programs are not Derivatives
+merely because they have similar ideas, functions, or appearance. Third-party
+materials remain subject to their own applicable terms.
+
+Exercising permissions granted by this license constitutes acceptance of its
+conditions. No ownership of the Software, a Derivative, or a licensee's company
+is transferred by this license.
+
+2. Free private, noncommercial permission
+
+You may view, download, copy, build, run, study, and privately modify the
+Software for personal, noncommercial purposes without a royalty. Preserve
+copyright and license notices in copies. This permission does not authorize
+redistributing source code or binaries, publishing a free competing build, or
+making the Software or a Derivative available as a service to others.
+
+3. Automatic commercial permission
+
+You are automatically granted a nonexclusive license to copy, modify, run,
+and commercially distribute the Software and Derivatives in source or binary
+form, or provide commercial services based on them, provided you comply with
+this license, including the royalty and reporting obligations below. Separate
+written approval is not required. Permission begins upon acceptance and first
+commercial use; the first royalty payment is due on the schedule in section 5,
+not before revenue has been earned.
+
+Before your first commercial use or distribution, email the contact above
+with your legal or business name, contact details, product/service name, and
+the Software version or commit used. Request payment instructions in that
+notice. This notice is registration for accounting, not a request for
+permission, and a reply is not required to activate a compliant license.
+
+General noncommercial redistribution is not granted by this license, except
+as described in section 6. A commercial license does not authorize removing
+these conditions from copies of the original Software.
+
+4. Royalty and revenue base
+
+The royalty is twenty-five percent (25%) of Gross Attributable Revenue.
+
+"Gross Attributable Revenue" means the gross revenue received by you or on
+your behalf that is attributable to the licensed Software or Derivative,
+including product/license sales, subscriptions, in-app purchases, advertising,
+and paid services based on the Software or Derivative. It is calculated before
+deducting operating costs, development costs, commissions, marketplace or
+payment-processing fees, or other business expenses. Taxes separately
+collected solely for remittance to a tax authority are not revenue. Actual
+customer refunds reduce the corresponding revenue; a refund relating to an
+already reported quarter may be credited in the next report.
+
+If the licensed app is bundled with unrelated products or services, use a
+reasonable, documented allocation based on their relative standalone value.
+Unrelated business revenue is not included. You must not use a nominal or sham
+allocation to avoid the royalty. The royalty is not 25% of net profit and is
+not an equity interest. No minimum royalty is due for a period with zero Gross
+Attributable Revenue, but a commercial licensee must still submit its report.
+
+5. Reports, payment, and payment-channel availability
+
+Accounting periods are calendar quarters ending March 31, June 30,
+September 30, and December 31. Email a report and pay the royalty within
+thirty (30) calendar days after each quarter ends, starting with the quarter
+of first commercial use. Report the product/service, period, currency,
+revenue categories, gross receipts, refunds/taxes excluded, any documented
+bundle allocation, Gross Attributable Revenue, royalty calculation, and
+payment reference. Keep records sufficient to substantiate your reports.
+Amounts must be reported and paid in the same currency unless another
+currency is agreed with Licensor.
+
+Send reports and requests for payment instructions to omkasana28@gmail.com.
+This email is a contact address, not a representation that it is a PayPal,
+UPI, bank, or other payment account. Follow payment instructions supplied by
+Licensor; do not send passwords, card details, or private banking credentials
+in a report.
+
+If no usable payment instructions have been supplied despite your timely
+request, send the report and a documented offer to pay by the normal deadline
+and set aside the amount due. Lack of instructions alone does not suspend
+your otherwise compliant commercial permission. Pay the accrued amount within
+thirty (30) calendar days after usable instructions are supplied. This is an
+administrative payment arrangement, not discretionary license approval.
+
+6. Notices, GitHub rights, and contributions
+
+Include this license and original copyright notices with distributions of
+the Software or Derivatives. Identify your modifications and do not imply
+that Licensor endorses your product or that it is an official WiFi Atlas
+release. You may not relicense the original Software under an unrestricted
+license that removes these conditions. Recipients exercise rights in the
+original Software under this license; this does not transfer ownership of
+your independently authored additions.
+
+Nothing here limits rights granted by GitHub's Terms of Service to view and
+fork a public repository through GitHub's functionality. You may also publish
+patches and modifications through a GitHub fork solely to propose a pull
+request to the canonical repository. These platform/contribution permissions
+do not by themselves authorize app releases, commercial services, or general
+redistribution beyond those purposes. Contributions are governed by the
+incoming-contribution terms in CONTRIBUTING.md, not an assignment of all
+contributors' copyright to Licensor.
+
+7. Noncompliance and reserved rights
+
+Commercial permissions are conditional on compliance. They suspend if a
+required report or payment is overdue, except for the payment-instruction
+exception above, and are reinstated when overdue obligations are fully cured
+and other breaches corrected. Accrued royalties remain payable. Other rights
+and remedies available under applicable law are not waived; making a royalty
+payment does not excuse unrelated breaches or create ownership rights.
+
+No trademark rights are granted except accurate identification of the
+Software and preservation of required notices. Rights not expressly granted
+are reserved. Nothing here limits rights that applicable law does not allow
+the parties to restrict. This license does not promise exclusivity over
+software ideas or impose royalties on independently written similar apps.
+
+8. Disclaimer
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NONINFRINGEMENT.
+TO THAT EXTENT, LICENSOR AND CONTRIBUTORS ARE NOT LIABLE FOR CLAIMS, DAMAGES,
+OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE, WHETHER IN CONTRACT,
+TORT, OR OTHERWISE.

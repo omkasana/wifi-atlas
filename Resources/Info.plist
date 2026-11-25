@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AtlasAppGroup</key>
+	<string>$(APP_GROUP_ID)</string>
+	<key>CFBundleDisplayName</key>
+	<string>WiFi Atlas</string>
+	<key>CFBundleExecutable</key>
+	<string>WiFiAtlas</string>
+	<key>CFBundleIconFile</key>
+	<string>Atlas</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wifiatlas.mac</string>
+	<key>CFBundleName</key>
+	<string>WiFi Atlas</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.wifiatlas.mac</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wifiatlas</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>WiFi Atlas uses Location Services permission to read Wi-Fi network names and access point identifiers for surveys and diagnostics. It does not track your geographic location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow WiFi Atlas to identify your Wi-Fi network and nearby access points.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

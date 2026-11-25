@@ -1,0 +1,45 @@
+name: macOS checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build-and-test:
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Verify Apple silicon toolchain
+        run: |
+          test "$(uname -m)" = arm64
+          swift --version
+          python3 --version
+      - name: Check shell scripts and metadata
+        run: |
+          bash -n scripts/*.sh
+          plutil -lint Resources/Info.plist Resources/App.entitlements WidgetExtension/Info.plist WidgetExtension/Widget.entitlements WiFiAtlas.xcodeproj/project.pbxproj
+      - name: Check generated Xcode project
+        run: |
+          python3 scripts/generate-xcode-project.py
+          git diff --exit-code -- WiFiAtlas.xcodeproj
+      - name: Standalone measurement and persistence checks
+        run: ./scripts/test-standalone.sh
+      - name: XCTest suite
+        run: ./scripts/test.sh
+      - name: Build app without release credentials
+        run: ./scripts/build.sh
+      - name: Type-check system widget source
+        run: |
+          swiftc -typecheck -parse-as-library -application-extension \
+            -I .build/arm64-apple-macosx/release/Modules \
+            -target arm64-apple-macos14.0 WidgetExtension/AtlasWidgets.swift
+      - name: Verify local bundle signature
+        run: codesign --verify --deep --strict "dist/WiFi Atlas.app"
